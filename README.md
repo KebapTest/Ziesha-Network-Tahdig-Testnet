@@ -1,7 +1,5 @@
 <h1 align="center"> ℤiesha Network | Tahdig-Testnet </h1>
 
-![image](https://user-images.githubusercontent.com/101149671/215441281-fcccd88d-68c9-4ee7-b967-cc0e00824ae5.png)
-
 
 ## Bu testnetnette yapacaklarımız ve önemli konular:
 
