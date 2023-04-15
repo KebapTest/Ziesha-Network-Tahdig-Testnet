@@ -118,6 +118,58 @@ bazuka node start --discord-handle "YOUR DISCORD HANDLE"
 * 2. Solo madencilik veya bir havuza katılarak madenci olabilirsiniz. (Madenci olmak için [buradan](https://github.com/ziesha-network/x-testnet#mine-ziesha-as-a-solo-miner))
 * 3. Madenci hazunun sahibi olabilirsiniz. (Havuz oluşturmak için [buradan](https://github.com/ziesha-network/x-testnet#mine-ziesha-in-a-mining-pool))
 
+---
+# Komutlar
+
+> ### Logları görüntülemek
+```
+sudo journalctl -u bazuka -fo cat
+```
+> ### Restart
+```
+sudo systemctl restart bazuka
+```
+> ### Node durumunu görüntüleyin
+```
+bazuka node status
+```
+
+> ### Cüzdan bilgisi
+```
+bazuka wallet info
+```
+> ### Token gönderme
+```
+bazuka wallet send --amount <miktar> --from <adres> --to <hedefadres>
+```
+> ### Validatör oluşturma
+```
+bazuka wallet register-validator --commision <commision>
+```
+> ###  Delegate 
+```
+bazuka wallet delegate --amount <miktar> --fee <fee> --to <validatöradresi>
+```
+> ### ReClaim
+```
+bazuka wallet reclaim-delegate --amount <miktar> --fee <fee> --from <validatöradresi>
+```
+> ### Token oluşturma
+```
+bazuka wallet new-token --name <isim> --supply <supply> --symbol <sembol>
+```
+> ### Cüzdana token ekleme
+```
+bazuka wallet add-token --id <id>
+```
+> ### Pendingdeki işlmeleri tekrar gönderme
+```
+bazuka wallet resend-pending
+```
+> ### Wallet nonce sıfırlama
+```
+bazuka wallet reset
+
 
 
 
