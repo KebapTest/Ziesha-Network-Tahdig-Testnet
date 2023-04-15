@@ -169,7 +169,7 @@ bazuka wallet resend-pending
 > ### Wallet nonce sıfırlama
 ```
 bazuka wallet reset
-
+```
 
 
 
