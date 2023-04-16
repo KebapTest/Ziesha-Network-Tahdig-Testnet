@@ -60,7 +60,7 @@ cargo install --path .
 > IPADRESİNİZİ girmeyi unutmayın!
 
 ```sh
-bazuka init --bootstrap 31.210.53.186:8765
+bazuka init --external IPADRESİ:8765 --bootstrap 213.14.138.127:8765
 ```
 
 ## Şimdi nodu çalıştıracağız:
