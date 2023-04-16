@@ -1,7 +1,8 @@
 <h1 align="center"> ℤiesha Network | Tahdig-Testnet </h1>
 
 
-## 🌯 Kebap -Bu testnetnette yapacaklarımız ve önemli konular:
+## 🌯 Kebap 
+Bu testnetnette yapacaklarımız ve önemli konular:
 
 > Öncelikle node'unuzun güncel olduğundan emin olun, eğer node'unuz testnet sürelerinde güncel değilse ağda `offline` olarak gözükürsünüz (explorer'da gözükseniz bile)
 
